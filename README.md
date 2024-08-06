@@ -18,38 +18,32 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 
-1. **Clone the Repository**
+1. Clone the Repository
 
-   ```bash
    git clone https://github.com/Ayush-1205/HandlingRequest.git
    cd HandlingRequest
    
-2. **Create a Virtual Environment**
+2. Create a Virtual Environment
 
-```bash
 python -m venv venv
 Activate the Virtual Environment
 
 On Windows:
 
-```bash
 venv\Scripts\activate
 
-3. **Install the dependencies**
+3. Install the dependencies
 
-```bash
 pip install -r requirements.txt
 
-4. **Apply Migrations**
+4. Apply Migrations
 
-```bash
 python manage.py makemigrations
 python manage.py migrate
 
 ## Running the project
-**Run the Development Server**
+Run the Development Server
 
-```bash
 python manage.py runserver
 
 ## API Endpoints
