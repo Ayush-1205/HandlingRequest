@@ -27,6 +27,7 @@ Before you begin, ensure you have the following installed:
 3. Create a Virtual Environment
 
 python -m venv venv
+
 Activate the Virtual Environment
 
 On Windows:
