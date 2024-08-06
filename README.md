@@ -26,30 +26,30 @@ Before you begin, ensure you have the following installed:
    
 2.Create a Virtual Environment
 
-bash
+```bash
 python -m venv venv
 Activate the Virtual Environment
 
 On Windows:
 
-bash
+```bash
 venv\Scripts\activate
 
 3.Install the dependencies:
 
-bash
+```bash
 pip install -r requirements.txt
 
 4.Apply Migrations
 
-bash
+```bash
 python manage.py makemigrations
 python manage.py migrate
 
 ## Running the project
 Run the Development Server
 
-bash
+```bash
 python manage.py runserver
 
 ## API Endpoints
