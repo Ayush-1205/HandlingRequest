@@ -70,6 +70,9 @@ json
 
 Description: Registers a new user.
 
+![image](https://github.com/user-attachments/assets/53e35069-89cd-422a-998d-23113cfb8603)
+
+
 2. Login
 
 Endpoint: /api/accounts/login/
@@ -86,7 +89,13 @@ json
 
 Description: Authenticates a user and returns a JWT token.
 
+![image](https://github.com/user-attachments/assets/8dba5f8f-1d02-4a7d-b1d3-60ff4549c43c)
+
+
 Add this access token in header before accessing any other api
+
+![image](https://github.com/user-attachments/assets/d0d66c2e-adcd-4cce-a86c-2670ed55f698)
+
 
 3. Search Users
 
@@ -97,6 +106,11 @@ Method: GET
 Query Parameters: keyword
 
 Description: Searches users by email or name with pagination (up to 10 records per page).
+
+![image](https://github.com/user-attachments/assets/4b265373-cc40-478a-aa39-ff5e3c83f69e)
+
+![image](https://github.com/user-attachments/assets/0411f33f-d28e-48d4-94c5-4ae2826da203)
+
 
 4. Send Friend Request
 
@@ -113,6 +127,8 @@ json
   "receiver_email": "receiver@example.com"
 }
 
+![image](https://github.com/user-attachments/assets/386a4b54-b428-4e01-be56-7e2a8ebe7255)
+
 
 Description: Sends a friend request to the specified email. Users cannot send more than 3 friend requests within a minute.
 
@@ -127,9 +143,10 @@ Request Body:
 json
 
 {
-
   "request_id": 1
 }
+
+![image](https://github.com/user-attachments/assets/57a1dd2a-c9cc-4abf-8c59-0740c675410c)
 
 
 Description: Accepts a pending friend request.
@@ -158,15 +175,18 @@ Endpoint: /api/accounts/list_friends/
 
 Method: GET
 
+![image](https://github.com/user-attachments/assets/c421ba51-c29c-4006-80d9-4b955288b124)
+
 Description: Lists all users who have accepted friend requests.
-
-
 
 8. List Pending Friend Requests
 
 Endpoint: /api/accounts/list_pending_friend_requests/
 
 Method: GET
+
+![image](https://github.com/user-attachments/assets/556510fb-de63-4164-9f5c-8c629787a24b)
+
 
 Description: Lists all received pending friend requests with their id's which can be used as request_id for accepting or rejecting the request.
 
